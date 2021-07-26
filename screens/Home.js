@@ -7,7 +7,9 @@ import AppLoading from "expo-app-loading";
 
 import { Montserrat_400Regular, useFonts } from "@expo-google-fonts/montserrat";
 
-const image = { uri: require("../assets/weights.jpg") };
+const image = {
+  uri: "https://complete-physio.co.uk/wp-content/uploads/2020/06/7-tips-for-a-successful-return-to-the-gym-after-lockdown-1.jpg",
+};
 
 export default function Home({ navigation }) {
   let [fontsLoaded] = useFonts({
