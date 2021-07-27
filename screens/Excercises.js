@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, FlatList, SafeAreaView } from "react-native";
-import { ExcerciseCard } from "../components";
+import { ExcerciseCard, HoverButton } from "../components";
 import { createStackNavigator } from "@react-navigation/stack";
 import { TrainingInfo } from "./";
 import { colors } from "../constants";
@@ -30,7 +30,7 @@ export default function Excercises({ navigation }) {
 
   return (
     <Stack.Navigator
-      initialRouteName="Details"
+      //initialRouteName="Details"
       screenOptions={{
         headerStyle: {
           backgroundColor: colors.primary,
